@@ -7,7 +7,7 @@ with open('disable_pkg.sh', 'w') as f: # Create a file called disable_pkg.sh
 	# Determine starting lines of the file. Here I am preparing it to be bash script to run ADB commands
 	l1 = '#!/bin/bash \n'
 	l2 = '\n #point ADB to ADB tools location \n'
-	l3 = 'ADB=/home/beppers/Documents/platform-tools/adb \n'
+	l3 = 'ADB=/path to adb \n'
 	l4 = '\n # list of apps to remove \n'
 	f.writelines([l1, l2, l3, l4]) # Write the lines to the file, don't forget.
 
